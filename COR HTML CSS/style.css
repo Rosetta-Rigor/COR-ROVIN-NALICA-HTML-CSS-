@@ -9,12 +9,42 @@ body {
 .container {
     max-width: 800px;
     width: 100%;
-    margin: auto;
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #000000; 
+    box-sizing: border-box; 
+} 
+
+.header {
+    text-align: center;
+}
+
+
+
+
+.header3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.header2 {
+    margin-left: 10px; 
+}
+
+.psu-logo {
+    width: 80px;
+    
 }
 
 .header {
     text-align: center;
 }
+
+
+
+
 
 .reg-number-container {
     text-align: left;
@@ -50,8 +80,13 @@ table {
     width: 100%; 
 }
 
+.subject-list{
+    width: 100%;
+}
 
-
+.subject-list td{
+    padding: 5px;
+}
 
 
 
